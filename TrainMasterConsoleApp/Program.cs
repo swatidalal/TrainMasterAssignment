@@ -8,7 +8,7 @@ namespace TrainMasterConsoleApp
         public static void Main(string[] args)
         {
             CRUDForTrainMaster cRUDForTrainMaster = new CRUDForTrainMaster();
-            //List<DaysOnWhichEveryTrainRun> daysOnWhichEveryTrainRun = new List<DaysOnWhichEveryTrainRun>();
+            List<DaysOnWhichEveryTrainRun> daysOnWhichEveryTrainRun = new List<DaysOnWhichEveryTrainRun>();
             //daysOnWhichEveryTrainRun.Add(new DaysOnWhichEveryTrainRun { TrainRunDays = "saturday" });
             //Train train = new Train
             //{
@@ -46,7 +46,7 @@ namespace TrainMasterConsoleApp
 
             //cRUDForTrainMaster.TrainSearchByTrainNumber(102090);
 
-            //cRUDForTrainMaster.UpdateTrain(102030, train);
+            //cRUDForTrainMaster.UpdateTrain(102003, train);
 
             cRUDForTrainMaster.TrainSearchByTrainNumberWithDay(100098);
 
