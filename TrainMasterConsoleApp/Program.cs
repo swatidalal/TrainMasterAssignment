@@ -48,8 +48,8 @@ namespace TrainMasterConsoleApp
 
             //cRUDForTrainMaster.UpdateTrain(102003, train);
 
-            cRUDForTrainMaster.TrainSearchByTrainNumberWithDay(100098);
-
+            //cRUDForTrainMaster.TrainSearchByTrainNumberWithDay(100098);
+            cRUDForTrainMaster.AllTrainList();
 
             Console.WriteLine("Done!!!!");
             Console.ReadLine();
